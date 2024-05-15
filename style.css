@@ -1,0 +1,73 @@
+ *{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #e9ceab;
+  }
+  #main{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+  }
+ #main>h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #d61010;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ #main>#image{
+    background-image: url(https://photos.advaitaashrama.org/product-images/sv_Belgaum_with+beard+and+turban_CL.jpg/1237499000001118823/1400x1400);
+    box-shadow:  15px 20px #888888;
+    
+    height: 600px;
+    width: 450px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    margin-top: 20px;
+ }
+
+ .content{
+    width: 100%;
+    display: flex;
+    height: auto;
+    border-radius: 7px;
+    padding: 10px 40px;
+ }
+ .content>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow:  5px 10px #888888;
+ }
+ .content>.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .content>.para>h3{
+    font-size: 25px;
+    font-weight: 600;
+    color: #a73430;
+    margin-bottom: 10px;
+ }
+ .one{
+    flex-direction: row;
+ }
+.two{
+    flex-direction: row-reverse;
+}
